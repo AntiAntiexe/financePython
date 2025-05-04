@@ -7,6 +7,8 @@ alpha = [0, 0.8, 0.98]
 
 x = np.empty(T+1)
 
+
+
 for alp in alpha:
     x[0] = 0
     for t in range(T):
