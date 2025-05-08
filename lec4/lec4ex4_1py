@@ -1,0 +1,12 @@
+def factorial(n):
+    if n > 0:
+        return n * factorial(n - 1)
+    
+def factorialIter(n):
+    k = 1
+    for i in range(n):
+        print(i)
+        k = k * (i + 1)
+    return k
+
+print(factorialIter(5)) # 120
